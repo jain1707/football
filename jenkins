@@ -1,0 +1,48 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                // Get some code from a GitHub repository
+                git 'https://github.com/jain1707/football.git'
+
+                // Run Maven on a Unix agent.
+                sh "mvn -Dmaven.test.failure.ignore=true clean package"
+
+                // To run Maven on a Windows agent, use
+                // bat "mvn -Dmaven.test.failure.ignore=true clean package"
+            }
+
+            post {
+                // If Maven was able to run the tests, even if some of the test
+                // failed, record the test results and archive the jar file.
+                success {
+                    junit '**/target/surefire-reports/TEST-*.xml'
+                    archiveArtifacts 'target/*.jar'
+                }
+            }
+        }
+
+        stage('Docker Image'){
+        steps{
+        sh "docker build -t jain1707/footballRanking:${env.BUILD_ID} ."
+        }
+        }
+
+        stage('Docker Push'){
+        steps{
+        withCredentials([string(credentialsId: 'dockerHub', variable: 'dockerHub')]) {
+    	 sh "docker login -u jain1707 -p ${dockerHub}"
+	}
+        sh "docker push jain1707/footballRanking:${env.BUILD_ID}"
+        }
+        }
+
+        stage('Deploy'){
+        steps{
+        sshagent(['awsdelpoy']) {
+        sh "ssh -o StrictHostKeyChecking=no Ubuntu@18.217.63.227 docker run -p 8080:8080 -d --name footballRanking-app footballRanking/order:${env.BUILD_ID}"
+	}
+        }
+        }
+    }
