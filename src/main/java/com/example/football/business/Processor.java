@@ -31,12 +31,12 @@ public class Processor {
         return nodes;
     }
 
-    public List<Node> searchWithName(String country, String league, String team) {
+    public List<Node> searchWithName(String country1, String league1, String team1) {
         List<Node> nodes = new ArrayList<>();
         Map<String, String> countryMap = generateCountryMap();
         Set<String> leagues = getLeagueSet();
         leagues.stream().map( i -> rc.getStanding(i)).flatMap(i -> Arrays.stream(i)).filter(i ->
-            i.getCountry_name().equals(country) && i.getTeam_name().equals(team) && i.getLeague_name().equals(league)).
+            i.getCountry_name().equals(country1) && i.getTeam_name().equals(team1) && i.getLeague_name().equals(league1)).
                 forEach(i -> {
                     nodes.add(new Node(country, countryMap.get(i.getCountry_name()) +"-"+i.getCountry_name()));
                     nodes.add(new Node(league, i.getLeague_id() +"-"+i.getLeague_name()));
