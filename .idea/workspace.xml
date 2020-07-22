@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bea3a4c6-29b3-47e8-a1d8-d868bffe100a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1f2RjzmBcDtBejvumQay3nCKX1J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/example/football" />
+  </component>
+  <component name="RunManager" selected="Application.FootballRankingApplication">
+    <configuration name="FootballRankingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.football.FootballRankingApplication" />
+      <module name="footballRanking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.football.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.football.client.RestClient" />
+      <module name="footballRanking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.football.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FootballRankingApplication" />
+        <item itemvalue="Application.RestClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bea3a4c6-29b3-47e8-a1d8-d868bffe100a" name="Default Changelist" comment="" />
+      <created>1595414339785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595414339785</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1595421335091">
+      <screen x="0" y="0" width="1920" height="951" />
+    </state>
+    <state x="765" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1920.951@0.0.1920.951" timestamp="1595421335091" />
+    <state x="740" y="192" key="FileChooserDialogImpl" timestamp="1595414563245">
+      <screen x="0" y="0" width="1920" height="951" />
+    </state>
+    <state x="740" y="192" key="FileChooserDialogImpl/0.0.1920.951@0.0.1920.951" timestamp="1595414563245" />
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom" timestamp="1595421418692">
+      <screen x="0" y="0" width="1920" height="951" />
+    </state>
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom/0.0.1920.951@0.0.1920.951" timestamp="1595421418692" />
+    <state width="1877" height="252" key="GridCell.Tab.0.center" timestamp="1595421418692">
+      <screen x="0" y="0" width="1920" height="951" />
+    </state>
+    <state width="1877" height="252" key="GridCell.Tab.0.center/0.0.1920.951@0.0.1920.951" timestamp="1595421418692" />
+    <state width="1877" height="252" key="GridCell.Tab.0.left" timestamp="1595421418692">
+      <screen x="0" y="0" width="1920" height="951" />
+    </state>
+    <state width="1877" height="252" key="GridCell.Tab.0.left/0.0.1920.951@0.0.1920.951" timestamp="1595421418692" />
+    <state width="1877" height="252" key="GridCell.Tab.0.right" timestamp="1595421418692">
+      <screen x="0" y="0" width="1920" height="951" />
+    </state>
+    <state width="1877" height="252" key="GridCell.Tab.0.right/0.0.1920.951@0.0.1920.951" timestamp="1595421418692" />
+    <state width="1877" height="312" key="GridCell.Tab.1.bottom" timestamp="1595419051201">
+      <screen x="0" y="0" width="1920" height="951" />
+    </state>
+    <state width="1877" height="312" key="GridCell.Tab.1.bottom/0.0.1920.951@0.0.1920.951" timestamp="1595419051201" />
+    <state width="1877" height="312" key="GridCell.Tab.1.center" timestamp="1595419051201">
+      <screen x="0" y="0" width="1920" height="951" />
+    </state>
+    <state width="1877" height="312" key="GridCell.Tab.1.center/0.0.1920.951@0.0.1920.951" timestamp="1595419051201" />
+    <state width="1877" height="312" key="GridCell.Tab.1.left" timestamp="1595419051201">
+      <screen x="0" y="0" width="1920" height="951" />
+    </state>
+    <state width="1877" height="312" key="GridCell.Tab.1.left/0.0.1920.951@0.0.1920.951" timestamp="1595419051201" />
+    <state width="1877" height="312" key="GridCell.Tab.1.right" timestamp="1595419051201">
+      <screen x="0" y="0" width="1920" height="951" />
+    </state>
+    <state width="1877" height="312" key="GridCell.Tab.1.right/0.0.1920.951@0.0.1920.951" timestamp="1595419051201" />
+    <state x="625" y="174" key="NewModule_or_Project.wizard" timestamp="1595414577939">
+      <screen x="0" y="0" width="1920" height="951" />
+    </state>
+    <state x="625" y="174" key="NewModule_or_Project.wizard/0.0.1920.951@0.0.1920.951" timestamp="1595414577939" />
+    <state x="776" y="253" key="chooseDestDirectoryDialog" timestamp="1595419436583">
+      <screen x="0" y="0" width="1920" height="951" />
+    </state>
+    <state x="776" y="253" key="chooseDestDirectoryDialog/0.0.1920.951@0.0.1920.951" timestamp="1595419436583" />
+  </component>
+</project>
